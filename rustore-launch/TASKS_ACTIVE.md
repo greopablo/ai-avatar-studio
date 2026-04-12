@@ -1,86 +1,128 @@
 # AI DEPARTMENT — ACTIVE TASKS
-## Постоянный список задач для агентов
-### Обновляется автоматически
+## IMPLEMENTATION PHASE — MVP Development
+### Updated: 2026-04-12 19:51
 
 ═══════════════════════════════════════════════════════════════════════════════
 
-## 🔄 БЕСКОНЕЧНЫЙ ЦИКЛ — ЗАДАЧИ НЕ ЗАКАНЧИВАЮТСЯ
+## 🚀 IMPLEMENTATION SPRINT 1 (Week 1)
 
-### АГЕНТ: ALEXANDER (BizDev)
-- [ ] Контакт Telegram-каналы с 1M+ подписчиков
-- [ ] Подготовить питч для блогеров (Influencer Kit)
-- [ ] Партнёрство с VK (VK Mini App program)
-- [ ] Связаться с RuStore для featuring
-- [ ] Создать медиа-кит продукта
-- [ ] Договориться с каналами про обзоры
-- [ ] **НОВАЯ ЗАДАЧА после каждого выполненного → найти нового партнёра**
+### ETHAN — Tech Lead (Flutter Project)
+- [ ] Flutter SDK setup
+- [ ] Project structure (lib/screens, lib/widgets, lib/services)
+- [ ] Basic navigation
+- [ ] API client setup
+- [ ] State management
 
-### АГЕНТ: MICHAEL (Anti-Fraud)
-- [ ] Система детекции ботов (fingerprinting)
-- [ ] Rate limiting на API endpoints
-- [ ] VPN/Proxy detection
-- [ ] Проверка телефона через SMS
-- [ ] Anti-cheat для referral программы
-- [ ] Privacy Policy документ
-- [ ] **НОВАЯ ЗАДАЧА → мониторить логи на аномалии**
+### SOPHIA — Product Lead (UI Kit)
+- [ ] colors.dart (Dark Premium theme)
+- [ ] typography.dart (Space Grotesk + Inter)
+- [ ] spacing.dart (8pt grid)
+- [ ] theme.dart (Material theme)
+- [ ] SPEC.md (full design spec)
 
-### АГЕНТ: EMMA (QA)
-- [ ] Тест-план для Rustore submission
-- [ ] Чеклист функционального тестирования
-- [ ] UI/UX regression checklist
-- [ ] Тест на разных устройствах (Android)
-- [ ] Performance testing (generation time)
-- [ ] Load testing API endpoints
-- [ ] **НОВАЯ ЗАДАЧА → написать автоматизированные тесты**
+### MICHAEL — Security Lead (Backend Infrastructure)
+- [ ] requirements.txt (FastAPI stack)
+- [ ] Dockerfile (backend)
+- [ ] docker-compose.yml
+- [ ] .env.example
+- [ ] SECURITY.md
 
-### АГЕНТ: CAESAR (Контролер)
-- [ ] Мониторинг прогресса всех агентов каждые 5 мин
-- [ ] Обновление PROGRESS_REPORT.txt
-- [ ] Активация спящих агентов
-- [ ] Git commit при изменениях
-- [ ] Генерация новых задач для завершивших
-- [ ] Отчёт директору (тебе)
+### EMMA — QA Lead (CI/CD)
+- [ ] GitHub Actions workflows
+- [ ] pytest configuration
+- [ ] Test structure
+- [ ] TESTING_PLAN.md
 
 ═══════════════════════════════════════════════════════════════════════════════
 
-## 📊 СТАТУС АГЕНТОВ
+## 📋 IMPLEMENTATION SPRINT 2 (Week 2) — Core Features
 
-| Агент | Текущая задача | Статус | Последняя активность |
-|-------|----------------|--------|---------------------|
-| Daniel | Стратегия | ✅ Завершено | 19:33 |
-| Sophia | Product Design | ✅ Завершено | 19:33 |
-| Ethan | Architecture | ✅ Завершено | 19:33 |
-| Ava | Growth Strategy | ✅ Завершено | 19:33 |
-| Isabella | Monetization | ✅ Завершено | 19:33 |
-| Alexander | BizDev | ⏳ В очереди | - |
-| Michael | Anti-Fraud | ⏳ В очереди | - |
-| Emma | QA | ⏳ В очереди | - |
-| Caesar | Контроль | 🚀 АКТИВЕН | 19:33 |
-
-═══════════════════════════════════════════════════════════════════════════════
-
-## 🔥 СЛЕДУЮЩИЕ ФАЗЫ (после завершения текущих)
-
-### Фаза 2: Implementation
-- [ ] UI Kit и компоненты (Figma → Flutter)
-- [ ] Backend API endpoints
-- [ ] AI integration
+### Backend API:
+- [ ] Auth endpoints (register, login, JWT)
+- [ ] User endpoints (profile, subscription)
+- [ ] Generation endpoints
 - [ ] Database schema
-- [ ] CI/CD pipeline
 
-### Фаза 3: Development Sprint
-- [ ] Sprint 1: Auth + Basic generation
-- [ ] Sprint 2: Premium features
-- [ ] Sprint 3: Sharing + Referrals
-- [ ] Sprint 4: Polish + Bug fixes
+### Frontend:
+- [ ] Auth screens (login, register)
+- [ ] Home/Gallery screen
+- [ ] Photo selection
+- [ ] Style picker
+- [ ] Generation screen
 
-### Фаза 4: Rustore Launch
-- [ ] App bundle preparation
-- [ ] Screenshots + Description
-- [ ] Privacy Policy публикация
-- [ ] Submission
-- [ ] Review monitoring
+### AI Integration:
+- [ ] Kandinsky API integration
+- [ ] Face detection pipeline
+- [ ] Style presets
+- [ ] Result processing
 
 ═══════════════════════════════════════════════════════════════════════════════
-**Обновлено:** 2026-04-12 19:33:18
+
+## 📋 IMPLEMENTATION SPRINT 3 (Week 3) — Premium Features
+
+### Backend:
+- [ ] Premium subscription logic
+- [ ] Referral system
+- [ ] Payment integration stubs
+
+### Frontend:
+- [ ] Premium unlock UI
+- [ ] Referral sharing
+- [ ] Share to Telegram/VK
+- [ ] Settings screen
+
+### Mobile Polish:
+- [ ] Animations (Lottie)
+- [ ] Haptic feedback
+- [ ] Offline handling
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## 📋 IMPLEMENTATION SPRINT 4 (Week 4) — Polish & Launch
+
+### QA:
+- [ ] Full test coverage
+- [ ] Device testing (5 devices)
+- [ ] Performance optimization
+- [ ] Bug fixes
+
+### Rustore Submission:
+- [ ] APK/AAB build
+- [ ] Screenshots (6)
+- [ ] Description (Russian)
+- [ ] Privacy Policy
+- [ ] Icon 512x512
+- [ ] Submission
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## 👥 AGENT STATUS
+
+| Agent | Current Task | Status |
+|-------|-------------|--------|
+| Daniel | Sprint Coordination | 🚀 ACTIVE |
+| Sophia | UI Kit | 🚀 WORKING |
+| Ethan | Flutter Project | 🚀 WORKING |
+| Ava | Marketing Assets | ⏳ QUEUED |
+| Alexander | Partner Outreach | ⏳ QUEUED |
+| Isabella | Payment Setup | ⏳ QUEUED |
+| Michael | Backend Infrastructure | 🚀 WORKING |
+| Emma | CI/CD | 🚀 WORKING |
+| Caesar | Monitoring | 🔄 ACTIVE |
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## 🎯 RUSTORE LAUNCH TARGET
+
+**Deadline:** 4 weeks from today
+**Goal:** Published on Rustore with:
+- ✅ Working app
+- ✅ Premium features
+- ✅ Viral mechanics
+- ✅ Anti-fraud
+- ✅ Privacy Policy
+- ✅ 4.5+ stars target
+
+═══════════════════════════════════════════════════════════════════════════════
+**Updated:** 2026-04-12 19:51:58
 ═══════════════════════════════════════════════════════════════════════════════
