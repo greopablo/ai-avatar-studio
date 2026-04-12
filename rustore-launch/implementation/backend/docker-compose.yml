@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@postgres:5432/avatar_studio
+      - REDIS_URL=redis://redis:6379/0
+    depends_on: [postgres, redis]
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=avatar_studio
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes: [postgres_data:/var/lib/postgresql/data]
+  redis:
+    image: redis:7-alpine
+  celery-worker:
+    build: ./backend
+    command: celery -A app.celery_app worker --loglevel=info
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@postgres:5432/avatar_studio
+      - REDIS_URL=redis://redis:6379/0
+    depends_on: [postgres, redis]
+volumes:
+  postgres_data:
