@@ -1,128 +1,64 @@
-# AI DEPARTMENT — ACTIVE TASKS
-## IMPLEMENTATION PHASE — MVP Development
-### Updated: 2026-04-12 19:51
+# AI DEPARTMENT — SPRINT 2 TASKS
+## Implementation Phase - Core Features
+## Status: 🚀 ACTIVE NOW
 
 ═══════════════════════════════════════════════════════════════════════════════
 
-## 🚀 IMPLEMENTATION SPRINT 1 (Week 1)
+## 🚨 АГЕНТЫ - РАБОТАЕМ! БЫСТРО!
 
-### ETHAN — Tech Lead (Flutter Project)
-- [ ] Flutter SDK setup
-- [ ] Project structure (lib/screens, lib/widgets, lib/services)
-- [ ] Basic navigation
-- [ ] API client setup
-- [ ] State management
+Сделано:
+- Phase 1: Документация ✓
+- Sprint 1: Skeleton ✓
 
-### SOPHIA — Product Lead (UI Kit)
-- [ ] colors.dart (Dark Premium theme)
-- [ ] typography.dart (Space Grotesk + Inter)
-- [ ] spacing.dart (8pt grid)
-- [ ] theme.dart (Material theme)
-- [ ] SPEC.md (full design spec)
-
-### MICHAEL — Security Lead (Backend Infrastructure)
-- [ ] requirements.txt (FastAPI stack)
-- [ ] Dockerfile (backend)
-- [ ] docker-compose.yml
-- [ ] .env.example
-- [ ] SECURITY.md
-
-### EMMA — QA Lead (CI/CD)
-- [ ] GitHub Actions workflows
-- [ ] pytest configuration
-- [ ] Test structure
-- [ ] TESTING_PLAN.md
+НУЖНО: Sprint 2 - REAL CODE! (НЕ документация!)
 
 ═══════════════════════════════════════════════════════════════════════════════
 
-## 📋 IMPLEMENTATION SPRINT 2 (Week 2) — Core Features
+## ETHAN - REAL CODE NOW!
 
-### Backend API:
-- [ ] Auth endpoints (register, login, JWT)
-- [ ] User endpoints (profile, subscription)
-- [ ] Generation endpoints
-- [ ] Database schema
+### Backend API - создай файлы:
 
-### Frontend:
-- [ ] Auth screens (login, register)
-- [ ] Home/Gallery screen
-- [ ] Photo selection
-- [ ] Style picker
-- [ ] Generation screen
+1. /implementation/backend/app/api/auth.py
+   - register(), login(), JWT tokens
 
-### AI Integration:
-- [ ] Kandinsky API integration
-- [ ] Face detection pipeline
-- [ ] Style presets
-- [ ] Result processing
+2. /implementation/backend/app/api/generate.py
+   - create_avatar(), get_status()
 
-═══════════════════════════════════════════════════════════════════════════════
+3. /implementation/backend/app/main.py
+   - FastAPI app
 
-## 📋 IMPLEMENTATION SPRINT 3 (Week 3) — Premium Features
+### После каждого файла - КОММИТ!
 
-### Backend:
-- [ ] Premium subscription logic
-- [ ] Referral system
-- [ ] Payment integration stubs
+## SOPHIA - REAL CODE NOW!
 
-### Frontend:
-- [ ] Premium unlock UI
-- [ ] Referral sharing
-- [ ] Share to Telegram/VK
-- [ ] Settings screen
+### Flutter Screens:
 
-### Mobile Polish:
-- [ ] Animations (Lottie)
-- [ ] Haptic feedback
-- [ ] Offline handling
+1. /implementation/flutter/lib/screens/auth_screen.dart
+   - Phone input, SMS code
 
-═══════════════════════════════════════════════════════════════════════════════
+2. /implementation/flutter/lib/screens/style_screen.dart
+   - Style grid, categories
 
-## 📋 IMPLEMENTATION SPRINT 4 (Week 4) — Polish & Launch
+## MICHAEL - REAL CODE NOW!
 
-### QA:
-- [ ] Full test coverage
-- [ ] Device testing (5 devices)
-- [ ] Performance optimization
-- [ ] Bug fixes
+### Database:
 
-### Rustore Submission:
-- [ ] APK/AAB build
-- [ ] Screenshots (6)
-- [ ] Description (Russian)
-- [ ] Privacy Policy
-- [ ] Icon 512x512
-- [ ] Submission
+1. /implementation/backend/app/models/user.py
+   - User SQLAlchemy model
 
-═══════════════════════════════════════════════════════════════════════════════
+2. /implementation/backend/app/models/avatar.py
+   - Avatar, Style models
 
-## 👥 AGENT STATUS
+## ISABELLA - REAL CODE NOW!
 
-| Agent | Current Task | Status |
-|-------|-------------|--------|
-| Daniel | Sprint Coordination | 🚀 ACTIVE |
-| Sophia | UI Kit | 🚀 WORKING |
-| Ethan | Flutter Project | 🚀 WORKING |
-| Ava | Marketing Assets | ⏳ QUEUED |
-| Alexander | Partner Outreach | ⏳ QUEUED |
-| Isabella | Payment Setup | ⏳ QUEUED |
-| Michael | Backend Infrastructure | 🚀 WORKING |
-| Emma | CI/CD | 🚀 WORKING |
-| Caesar | Monitoring | 🔄 ACTIVE |
+### Payments:
 
-═══════════════════════════════════════════════════════════════════════════════
+1. /implementation/backend/app/services/payment.py
+   - ЮKassa stub
 
-## 🎯 RUSTORE LAUNCH TARGET
+## ПРАВИЛА:
+1. РЕАЛЬНЫЙ КОД (не .md файлы!)
+2. КОММИТ после каждого файла!
+3. НИКАКИХ ОПРАВДАНИЙ!
 
-**Deadline:** 4 weeks from today
-**Goal:** Published on Rustore with:
-- ✅ Working app
-- ✅ Premium features
-- ✅ Viral mechanics
-- ✅ Anti-fraud
-- ✅ Privacy Policy
-- ✅ 4.5+ stars target
-
-═══════════════════════════════════════════════════════════════════════════════
-**Updated:** 2026-04-12 19:51:58
-═══════════════════════════════════════════════════════════════════════════════
+ВРЕМЯ: 2026-04-12 20:26:49 UTC
