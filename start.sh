@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "╔═══════════════════════════════════════╗"
+echo "║   AI DEPARTMENT — VPS READY!         ║"
+echo "╚═══════════════════════════════════════╝"
+echo ""
+echo "👥 Агенты: daniel, sophia, ethan, ava,"
+echo "           alexander, isabella, michael,"
+echo "           emma, caesar"
+echo ""
+echo "📝 Подключение: ssh <user>@45.159.189.85"
