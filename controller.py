@@ -14,8 +14,8 @@ VPS_PASS = "0N#eq2F0EHg4w-"
 PROJECT = "/opt/ai-department/rustore-launch"
 
 # Telegram - SET YOUR VALUES!
-BOT_TOKEN = ""  # Your bot token
-CHAT_ID = ""    # Your chat ID
+BOT_TOKEN = "8241576028:AAH-3YOXl2QocTOklIUBipy483QF3AqdWXU"  # Your bot token
+CHAT_ID = "2012881095"    # Your chat ID
 
 AGENTS = {
     "daniel": {"role": "CEO", "task": "Sprint coordination"},
